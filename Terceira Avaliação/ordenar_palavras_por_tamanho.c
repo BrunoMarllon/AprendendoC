@@ -4,7 +4,7 @@
 void Le(char frase[MAX]);
 void Ordena(char frase[MAX]);
 int main() {
-   // printf(""); 
+
     char frase[MAX];
     Le(frase);
     printf("\nFrase: %s",frase);
@@ -12,6 +12,14 @@ int main() {
     printf("\nFrase ordenada: %s", frase);
     return 0;
 }
+
+
+
+
+
+
+
+
 void Ordena(char frase[MAX]){
 char palavra[MAX], matriz[MAX][MAX], novafrase[MAX];
     int x = 0;
